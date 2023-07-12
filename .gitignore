@@ -8,4 +8,5 @@
 /*.userdb.kct
 /*.userdb.txt
 /*.userdb.kct.snapshot
-
+/*.dict.yaml
+/tools/scel2txt/
