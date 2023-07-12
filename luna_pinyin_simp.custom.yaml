@@ -1,20 +1,11 @@
 patch:
-  translator:
-    dictionary: luna_pinyin.sogou
-  punctuator:
-    half_shape:
-      "#": "#"
-      "$": "￥"
-      "%": "%"
-      "*": "*"
-      "/": "/"
-      "=": "="
-      "@": "@"
-      "\\": "、"
-      "[": "【"
-      "]": "】"
-      "`": "`"
-      "|": "・"
-      "{": "{"
-      "}": "}"
-      "~": "～"
+  translator/dictionary: luna_pinyin.sogou
+
+  punctuator/half_shape/#: "#" 
+  punctuator/half_shape/*: "*"
+  #punctuator/half_shape//: "/" # "/" in path not supported
+  punctuator/half_shape/@: "@"
+  punctuator/half_shape/[: ["[", "［", "【"]
+  punctuator/half_shape/]: ["]", "］", "】"]
+  punctuator/half_shape/{: "{"
+  punctuator/half_shape/}: "}"
