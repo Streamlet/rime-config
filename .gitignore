@@ -1,0 +1,11 @@
+.*
+/default.yaml
+/weasel.yaml
+/installation.yaml
+/user.yaml
+/build/
+/*.userdb/
+/*.userdb.kct
+/*.userdb.txt
+/*.userdb.kct.snapshot
+
