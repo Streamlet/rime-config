@@ -1,0 +1,10 @@
+patch:
+  # 外观配置
+  style:
+    horizontal: true      # 候选窗横向显示
+    inline_preedit: true  # 行内输入
+    border_width: 10      # 候选窗边距宽度
+    border_height: 10     # 候选窗边距高度
+    corner_radius: 5      # 候选窗圆角半径
+    font_point: 15        # 候选词字号
+    label_font_point: 15  # 候选词前编号的字号

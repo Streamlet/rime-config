@@ -1,0 +1,3 @@
+patch:
+  menu:
+    page_size: 9 # 每页候选词个数
