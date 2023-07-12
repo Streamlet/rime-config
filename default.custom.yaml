@@ -1,3 +1,11 @@
 patch:
   menu:
     page_size: 9 # 每页候选词个数
+  ascii_composer:
+    good_old_caps_lock: true # Caps 只切换大小写，不切环中英文
+    switch_key:
+        Caps_Lock: commit_code
+        Control_L: noop
+        Control_R: noop
+        Shift_L: commit_code
+        Shift_R: commit_code
