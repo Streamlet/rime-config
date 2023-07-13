@@ -5,6 +5,7 @@ patch:
   style/corner_radius: 5        # 候选窗圆角半径
   style/font_point: 15          # 候选词字号
   style/label_font_point: 15    # 候选词前编号的字号
+  style/comment_font_point: 15  # 提示文字字号（中文/西文，编码等）
 
   style/color_scheme: google   # 配色方案
   preset_color_schemes/google/hilited_candidate_text_color: 0xFF0000
