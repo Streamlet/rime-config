@@ -1,5 +1,5 @@
 patch:
-  translator/dictionary: luna_pinyin.sogou
+  translator/dictionary: luna_pinyin.extended
 
   # punctuator/half_shape/#: "#" 
   # punctuator/half_shape/*: "*"
