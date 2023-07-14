@@ -3,7 +3,14 @@
 
 ## 使用方法
 
-### mac
+### Windows
+```batch
+Del /S /Q %AppData%\Rime
+git clone git@github.com:Streamlet/rime-config.git %AppData%\Rime
+```
+
+
+### Mac
 ```bash
 rm -rf ~/Library/Rime
 git clone git@github.com:Streamlet/rime-config.git ~/Library/Rime

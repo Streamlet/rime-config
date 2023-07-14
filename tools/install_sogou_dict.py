@@ -46,7 +46,7 @@ for dict in dicts:
     download(url, os.path.join('scel', dict + '.scel'))
 
 if sys.version >= '3':
-    os.system('%s scel2txt.py' % sys.executable)
+    os.system('"%s" scel2txt.py' % sys.executable)
 elif (sys.platform == 'win32' and os.system('where go') == 0) or (sys.platform != 'win32' and os.system('which go') == 0):
     os.system('go build scel2txt.go')
     os.system('./scel2txt')

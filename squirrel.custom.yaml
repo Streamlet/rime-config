@@ -1,11 +1,10 @@
 patch:
   # 外观配置
-  style/horizontal: true          # 候选窗横向显示
-  style/inline_preedit: true      # 行内输入
-  style/border_width: 10          # 横向边框宽度
-  style/corner_radius: 5          # 候选窗圆角半径
-  style/hilited_corner_radius: 5  # 候选词选中态圆角半径
-  style/font_point: 15            # 候选词字号
-  style/label_font_point: 12      # 候选词前编号的字号
-  style/comment_font_point: 12    # 提示文字字号（中文/西文，编码等）
-
+  style/horizontal: true # 候选窗横向显示
+  style/inline_preedit: true # 行内输入
+  style/border_width: 10 # 横向边框宽度
+  style/corner_radius: 5 # 候选窗圆角半径
+  style/hilited_corner_radius: 5 # 候选词选中态圆角半径
+  style/font_point: 15 # 候选词字号
+  style/label_font_point: 12 # 候选词前编号的字号
+  style/comment_font_point: 12 # 提示文字字号（中文/西文，编码等）
