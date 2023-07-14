@@ -1,6 +1,8 @@
 patch:
   translator/dictionary: luna_pinyin.extended
 
+  switches/@0/states: ["中", "英"]
+
   # punctuator/half_shape/#: "#" 
   # punctuator/half_shape/*: "*"
   # punctuator/half_shape//: "/" # "/" in path not supported
