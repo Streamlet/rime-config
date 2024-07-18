@@ -1,5 +1,7 @@
 patch:
   # 外观配置
+  style/candidate_list_layout: linear
+  style/text_orientation: horizontal
   style/horizontal: true # 候选窗横向显示
   style/inline_preedit: true # 行内输入
   style/layout/border_width: 1
